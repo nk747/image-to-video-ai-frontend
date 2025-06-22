@@ -8,4 +8,4 @@ root.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
-);
+);fix: correct App import in index.js
