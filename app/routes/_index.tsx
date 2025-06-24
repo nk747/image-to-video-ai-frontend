@@ -1,8 +1,8 @@
 export default function Index() {
   return (
-    <div style={{ textAlign: "center", marginTop: 50 }}>
-      <h1>🎉 Welcome to Image to Video AI</h1>
-      <p>Frontend is working! Now connect to your backend.</p>
+    <div style={{ fontFamily: "system-ui", lineHeight: "1.8", padding: 20 }}>
+      <h1>🎬 Image to Video AI</h1>
+      <p>Welcome! Paste your prompt and watch it turn into video!</p>
     </div>
   );
 }
