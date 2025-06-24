@@ -1,8 +1,9 @@
 export default function Index() {
   return (
-    <div style={{ fontFamily: "system-ui", lineHeight: "1.8", padding: 20 }}>
-      <h1>🎬 Image to Video AI</h1>
-      <p>Welcome! Paste your prompt and watch it turn into video!</p>
+    <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
+      <h1>Welcome to Image to Video AI 👋</h1>
+      <p>Build free prompt-to-image and image-to-video content here.</p>
+      <p>Powered by NK SharmaShorts 🚀</p>
     </div>
   );
 }

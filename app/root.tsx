@@ -1,4 +1,4 @@
-import type { LinksFunction, MetaFunction } from "@remix-run/node";
+import type { MetaFunction } from "@remix-run/node";
 import {
   Links,
   LiveReload,
@@ -9,11 +9,7 @@ import {
 } from "@remix-run/react";
 
 export const meta: MetaFunction = () => {
-  return [{ title: "Image to Video AI" }];
-};
-
-export const links: LinksFunction = () => {
-  return [];
+  return [{ title: "Image to Video AI" }, { name: "description", content: "Free prompt to image to video site by NK SharmaShorts" }];
 };
 
 export default function App() {
